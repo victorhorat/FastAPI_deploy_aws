@@ -15,4 +15,4 @@ def auth_me(user: User):
 
 @app.get("/")
 def read_root():
-    return {"message": "Bem-vindo à sua API FastAPI!"}
+    return {"message": "API ON!"}
